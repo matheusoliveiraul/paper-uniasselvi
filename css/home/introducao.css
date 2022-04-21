@@ -1,0 +1,13 @@
+.introducao{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  /* gap: 20px; */
+  align-items: end;
+}
+
+.introducao-conteudo{
+  display: grid;
+  gap: 16px;
+}

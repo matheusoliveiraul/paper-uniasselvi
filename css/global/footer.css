@@ -1,0 +1,26 @@
+.footer-bg {
+  background-color: #F4F5F9;
+}
+
+.footer {
+  display: grid;
+  justify-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 20px;
+}
+
+.footer-redes{
+  display: flex;
+  gap: 20px;
+}
+
+.footer-menu{
+  display: flex;
+  gap: 20px;
+}
+
+.footer-menu a{
+  display: inline-block;
+  padding: 16px 0px;
+}
