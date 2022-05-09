@@ -1,13 +1,39 @@
 .introducao{
-  display: grid;
-  grid-template-columns: 1fr auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 60px;
   /* gap: 20px; */
   align-items: end;
 }
 
 .introducao-conteudo{
-  display: grid;
-  gap: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.introducao-imagem{
+  flex: 2;
+}
+
+@media (max-width: 850px){
+  .introducao{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 610px){
+  .introducao{
+    padding-top: 20px;
+  }
+  .introducao-conteudo{
+    align-items: center;
+    gap: 20px;
+  }
+  .introducao .botao{
+    align-self: flex-end;
+  }
 }

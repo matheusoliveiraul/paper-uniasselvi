@@ -1,5 +1,5 @@
-.header-bg{
-  background-color: #f4f5f9;
+.header-bg {
+  /* background-color: #f4f5f9; */
 }
 
 .header {
@@ -8,17 +8,27 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .header-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 80px;
+  gap: 40px;
 }
 
 .header-menu a {
   display: inline-block;
   padding: 16px 0px;
+}
+
+@media (max-width: 610px) {
+  .header{
+    flex-direction: column;
+    gap: 8px;
+  }
+  .header .botao{
+    display: none;
+  }
 }
